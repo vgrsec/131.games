@@ -396,6 +396,15 @@ section {
   color: #ffffff;
 }
 
+.section-title h3, h4, h5, h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #ffffff;
+}
+
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -1198,7 +1207,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #1b1f22;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1228,7 +1237,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #1b1f22;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
